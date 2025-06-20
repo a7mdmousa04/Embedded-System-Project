@@ -62,3 +62,18 @@ Real-time data is collected from both units and displayed **live on a dedicated 
 - Integrate solar power for long-term field deployment.
 - Add SD card storage for local data logging.
 - Improve the web interface for enhanced data visualization and historical trends.
+
+---
+## 👥 Team Members
+
+- Mohamed Hisham
+- Ahmed mohamed AboElmakarem
+- Ahmed mohamed Mousa
+- Mohamed Nagi
+- Mahmoud Ezat
+- Mohamed Moawad
+- Mohamed shiple
+- Youssef Makarm
+- Ahmed Shousha
+- Marwa Ibrahim
+- Hazem Ahmed
