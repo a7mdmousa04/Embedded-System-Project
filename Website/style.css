@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e2f;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #4db8ff;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#data1, #data2, #average {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffcc00;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4db8ff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #368fd8;
+}
+
+
+.popup-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    width: auto;
+    min-width: 800px;  
+    max-width: 90vw;
+    max-height: 400px;
+    padding: 20px;
+    display: none; 
+}
+
+#logs-content {
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto; 
+    padding: 10px;
+    text-align: left;
+}
+
+#logsList {
+    list-style: none;
+    padding: 0;
+    white-space: nowrap; 
+}
+
+#closeLogs {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 15px;
+    background: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#closeLogs:hover {
+    background: #c9302c;
+}
+
+
+.chart-container {
+    width: 90%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.download-buttons {
+    margin-top: 20px;
+}
+
+.download-buttons button {
+    margin: 5px;
+}
+
+.filter-container {
+    width: 90%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.filter-container input, .filter-container button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .container, .popup-content, .chart-container, .filter-container {
+        width: 95%;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    margin: 500px 0 0px 0;
+}
+
+.container h2 {
+    font-size: 1.8em;
+    color: #4db8ff;
+    margin-bottom: 10px;
+}
+
+.reading-value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffcc00;
+    display: block;
+    margin: 5px 0;
+}
+#downloadBtn {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4db8ff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#downloadBtn:hover {
+    background-color: #368fd8;
+
+.extreme-values-container {
+    width: 90%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.extreme-values-container h2 {
+    font-size: 1.8em;
+    color: #4db8ff;
+    margin-bottom: 10px;
+}
+
+.extreme-values-container p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.extreme-values-container .extreme-value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffcc00;
+    margin: 10px 0;
+}
+
+.extreme-values-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.extreme-values-container button:hover {
+    background-color: #45a049;
+}
+
+.extreme-values-container p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: white; 
+    font-weight: bold;
+}
+
+.extreme-values-container .extreme-value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffcc00; 
+    margin: 10px 0;
+}
+
+.extreme-values-container .label {
+    color: white;  
+}
