@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=BT2-NEG
+Removed Member From Class: ClassName=Sheet2 Member=BT2
+Removed Member From Class: ClassName=Sheet2 Member=S2
+Added Component: Designator=J2(HANDSON_KF301-2P)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/KF301-2P/Handson+Technology/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Handson Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "KF301-2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/KF301-2P/Handson+Technology/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_2 Pin=LM3-1
+Added Net: Name=NetJ2_2
+Added Member To Class: ClassName=Sheet2 Member=Component J2 KF301-2P

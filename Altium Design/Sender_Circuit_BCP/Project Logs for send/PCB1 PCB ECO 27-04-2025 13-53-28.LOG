@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=GND Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=LM3-2
+Removed Pin From Net: NetName=GND Pin=LM3-3
+Removed Pin From Net: NetName=+5 Pin=LM3-4
+Added Component: Designator=D1(DIOAD1586W101L900D530)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/1.5KE6.8A/Littelfuse/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1.5KE6.8A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-201 Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1.5KE6.8A/Littelfuse/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D2(DIOAD1586W101L900D530)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/1.5KE6.8A/Littelfuse/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1.5KE6.8A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-201 Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1.5KE6.8A/Littelfuse/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-2
+Added Pin To Net: NetName=+5 Pin=D1-C
+Added Pin To Net: NetName=+5 Pin=D2-C
+Add Pin To Net: Unknown Pin: Pin L1-2
+Change Net Name : Old Net Name=GND New Net Name=D_GND
+Added Pin To Net: NetName=NetL1_1 Pin=LM3-4
+Added Net: Name=NetL1_1
+Added Pin To Net: NetName=P_GND Pin=D1-A
+Added Pin To Net: NetName=P_GND Pin=D2-A
+Added Pin To Net: NetName=P_GND Pin=J2-1
+Added Pin To Net: NetName=P_GND Pin=LM3-2
+Added Pin To Net: NetName=P_GND Pin=LM3-3
+Added Net: Name=P_GND
+Add Class Member: Failed to add class member : Component C1 Capacitor
+Add Class Member: Failed to add class member : Component C2 Capacitor
+Added Member To Class: ClassName=Sheet2 Member=Component D1 1.5KE6.8A
+Added Member To Class: ClassName=Sheet2 Member=Component D2 1.5KE6.8A
+Add Class Member: Failed to add class member : Component L1 Inductor
