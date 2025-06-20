@@ -8,6 +8,7 @@ This project presents an **IoT-based water level monitoring system** specificall
 2. **Receiver Unit** – Placed at the **shore of the lake**
 
 Both circuits use **ESP8266 WiFi modules**, **ultrasonic sensors** for measuring water levels, and **buck converters** for power regulation. The receiver unit also uses a **GSM module** to send data to a remote website.
+Real-time data is collected from both units and displayed **live on a dedicated website**.
 
 ---
 
@@ -35,7 +36,16 @@ Both circuits use **ESP8266 WiFi modules**, **ultrasonic sensors** for measuring
 - 🧠 **Function**:
   - Measures the local water level at the shore.
   - Receives remote measurements from the sender unit.
-  - Uploads both data sets to a website using GSM for remote access and monitoring.
+  - Uploads both water level readings to a **live website** via GSM for real-time monitoring.
+
+---
+
+## 🖥️ Live Data Display
+
+- A custom website is used to display real-time water level readings.
+- Users can monitor both dam and shore levels directly from the browser.
+
+🔗 **Live Website**: [https://embeddedsysproject-production.up.railway.app/](https://embeddedsysproject-production.up.railway.app/)
 
 ---
 
@@ -51,4 +61,4 @@ Both circuits use **ESP8266 WiFi modules**, **ultrasonic sensors** for measuring
 
 - Integrate solar power for long-term field deployment.
 - Add SD card storage for local data logging.
-- Develop a web dashboard or mobile app for real-time data visualization.
+- Improve the web interface for enhanced data visualization and historical trends.
